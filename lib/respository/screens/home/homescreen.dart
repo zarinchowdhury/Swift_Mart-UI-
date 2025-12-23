@@ -5,20 +5,20 @@ import '../../widgets/uihelper.dart';
 class HomeScreen extends StatelessWidget {
   TextEditingController searchController = TextEditingController();
   var data = [
-    {"img": "image 50.png", "text": "Lights, Diyas \n & Candles"},
-    {"img": "image 51.png", "text": "Diwali \n Gifts"},
+    {"img": "image 50.png", "text": "Lights \n & Candles"},
+    {"img": "image 51.png", "text": "New Year \n Gifts"},
     {"img": "image 52.png", "text": "Appliances  \n & Gadgets"},
     {"img": "image 53.png", "text": "Home \n & Living"}
   ];
   var categroy = [
-    {"img": "image 54.png", "text": "Golden Glass\n Wooden Lid Candle (Oudh)"},
-    {"img": "image 57.png", "text": "Royal Gulab Jamun\n By Bikano"},
-    {"img": "image 63.png", "text": "Golden Glass\n Wooden Lid Candle (Oudh)"},
+    {"img": "image 54.png", "text": "Golden Glass\n Wooden Lid Candle"},
+    {"img": "image 57.png", "text": "Royal  Kala Jamun"},
+    {"img": "image 63.png", "text": "Pringles-Potato-Chips-165g"},
   ];
   var grocerykitchen = [
-    {"img": "image 41.png", "text": "Vegetables & \nFruits"},
-    {"img": "image 42.png", "text": "Atta, Dal & \nRice"},
-    {"img": "image 43.png", "text": "Oil, Ghee & \nMasala"},
+    {"img": "image 46 (1).png", "text": "Vegetables & \nFruits"},
+    {"img": "image 42.png", "text": "Flour, Lentil & \nRice"},
+    {"img": "image 43.png", "text": "Oil, Ghee & \nSpices"},
     {"img": "image 44 (1).png", "text": "Dairy, Bread & \nMilk"},
     {"img": "image 45 (1).png", "text": "Biscuits & \nBakery"}
   ];
@@ -35,7 +35,7 @@ class HomeScreen extends StatelessWidget {
                 Container(
                   height: 190,
                   width: double.infinity,
-                  color: Color(0XFFEC0505),
+                  color: Color(0XFF96D4DB),
                   child: Column(
                     children: [
                       SizedBox(
@@ -47,7 +47,7 @@ class HomeScreen extends StatelessWidget {
                             width: 20,
                           ),
                           UiHelper.CustomText(
-                              text: "Blinkit in",
+                              text: "SwiftMart",
                               color: Color(0XFFFFFFFF),
                               fontweight: FontWeight.bold,
                               fontsize: 15,
@@ -60,7 +60,7 @@ class HomeScreen extends StatelessWidget {
                             width: 20,
                           ),
                           UiHelper.CustomText(
-                              text: "16 minutes",
+                              text: "25 minutes",
                               color: Color(0XFFFFFFFF),
                               fontweight: FontWeight.bold,
                               fontsize: 20,
@@ -78,9 +78,9 @@ class HomeScreen extends StatelessWidget {
                               fontweight: FontWeight.bold,
                               fontsize: 14),
                           UiHelper.CustomText(
-                              text: "- Sujal Dave, Ratanada, Jodhpur (Raj)",
+                              text: "- Sylhet",
                               color: Color(0XFFFFFFFF),
-                              fontweight: FontWeight.bold,
+                              fontweight: FontWeight.normal,
                               fontsize: 14)
                         ],
                       ),
@@ -114,7 +114,7 @@ class HomeScreen extends StatelessWidget {
             Container(
               height: 196,
               width: double.infinity,
-              color: Color(0XFFEC0505),
+              color: Color(0XFF96D4DB),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
@@ -124,8 +124,8 @@ class HomeScreen extends StatelessWidget {
                       UiHelper.CustomImage(img: "image 60.png"),
                       UiHelper.CustomImage(img: "image 55.png"),
                       UiHelper.CustomText(
-                          text: "Mega Diwali Sale",
-                          color: Colors.white,
+                          text: "Mega Winter Sale",
+                          color: Colors.black,
                           fontweight: FontWeight.bold,
                           fontsize: 20,
                           fontfamily: "bold"),
@@ -204,15 +204,15 @@ class HomeScreen extends StatelessWidget {
                           padding: const EdgeInsets.only(right: 40),
                           child: Row(children: [
                             UiHelper.CustomImage(img: "timer 4.png"),
-                            UiHelper.CustomText(text: "16 MINS", color: Color(0XFF9C9C9C), fontweight: FontWeight.normal, fontsize: 10)
+                            UiHelper.CustomText(text: "25 MINS", color: Color(0XFF9C9C9C), fontweight: FontWeight.normal, fontsize: 10)
                           ],),
                         ),
                         SizedBox(height: 5,),
                         Padding(
                           padding: const EdgeInsets.only(right: 60),
                           child: Row(children: [
-                            UiHelper.CustomImage(img: "image 50 (1).png"),
-                            UiHelper.CustomText(text: "79", color: Color(0XFF9C9C9C), fontweight: FontWeight.bold, fontsize: 15)
+                            UiHelper.CustomImage(img: "taka 1.png"),
+                            UiHelper.CustomText(text: "220", color: Color(0XFF9C9C9C), fontweight: FontWeight.bold, fontsize: 15)
 
                           ],),
                         )

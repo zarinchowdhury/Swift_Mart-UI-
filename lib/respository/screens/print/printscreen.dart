@@ -6,7 +6,7 @@ class PrintScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Color(0XFFFBF0CE),
+        backgroundColor: Color(0XFFEDF3F4),
         body: Column(
           children: [
             SizedBox(height: 40,),
@@ -15,7 +15,7 @@ class PrintScreen extends StatelessWidget {
                 Container(
                   height: 190,
                   width: double.infinity,
-                  color: Color(0XFFF7CB45),
+                  color: Color(0XFF96D4DB),
                   child: Column(
                     children: [
                       SizedBox(
@@ -27,10 +27,10 @@ class PrintScreen extends StatelessWidget {
                             width: 20,
                           ),
                           UiHelper.CustomText(
-                              text: "Blinkit in",
+                              text: "SwiftMart",
                               color: Color(0XFF000000),
                               fontweight: FontWeight.bold,
-                              fontsize: 15,
+                              fontsize: 12,
                               fontfamily: "bold"),
                         ],
                       ),
@@ -40,7 +40,7 @@ class PrintScreen extends StatelessWidget {
                             width: 20,
                           ),
                           UiHelper.CustomText(
-                              text: "16 minutes",
+                              text: "25 minutes",
                               color: Color(0XFF000000),
                               fontweight: FontWeight.bold,
                               fontsize: 20,
@@ -56,11 +56,11 @@ class PrintScreen extends StatelessWidget {
                               text: "HOME ",
                               color: Color(0XFF000000),
                               fontweight: FontWeight.bold,
-                              fontsize: 14),
+                              fontsize: 12),
                           UiHelper.CustomText(
-                              text: "- Sujal Dave, Ratanada, Jodhpur (Raj)",
+                              text: "- Sylhet",
                               color: Color(0XFF000000),
-                              fontweight: FontWeight.bold,
+                              fontweight: FontWeight.normal,
                               fontsize: 14)
                         ],
                       ),
@@ -96,8 +96,8 @@ class PrintScreen extends StatelessWidget {
                 fontweight: FontWeight.bold,
                 fontsize: 32),
             UiHelper.CustomText(
-                text: "Blinkit ensures secure prints at every stage",
-                color: Color(0XFF9C9C9C),
+                text: "SwiftMart ensures secure prints at every stage",
+                color: Color(0XFF605F5F),
                 fontweight: FontWeight.bold,
                 fontsize: 14),
             SizedBox(
@@ -140,10 +140,10 @@ class PrintScreen extends StatelessWidget {
                           width: 7,
                         ),
                         UiHelper.CustomText(
-                            text: "Price starting at rs 3/page",
-                            color: Color(0XFF9C9C9C),
+                            text: "Price starting at  tk 20 ",
+                            color: Color(0XFF605F5F),
                             fontweight: FontWeight.normal,
-                            fontsize: 15)
+                            fontsize: 14)
                       ],
                     ),
                     Row(
@@ -157,9 +157,9 @@ class PrintScreen extends StatelessWidget {
                         ),
                         UiHelper.CustomText(
                             text: "Paper quality: 70 GSM",
-                            color: Color(0XFF9C9C9C),
+                            color: Color(0XFF595656),
                             fontweight: FontWeight.normal,
-                            fontsize: 15)
+                            fontsize: 14)
                       ],
                     ),
                     Row(
@@ -173,9 +173,9 @@ class PrintScreen extends StatelessWidget {
                         ),
                         UiHelper.CustomText(
                             text: "Single side prints",
-                            color: Color(0XFF9C9C9C),
+                            color: Color(0XFF595656),
                             fontweight: FontWeight.normal,
-                            fontsize: 15)
+                            fontsize: 14)
                       ],
                     ),
                     SizedBox(

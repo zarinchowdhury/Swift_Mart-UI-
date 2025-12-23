@@ -6,7 +6,7 @@ class CategoryScreen extends StatelessWidget {
   var grocerykitchen = [
     {"img": "image 41.png", "text": "Vegetables & \nFruits"},
     {"img": "image 42.png", "text": "Flour,  Lentil & \nRice"},
-    {"img": "image 43.png", "text": "Oil, Ghee & \nMasala"},
+    {"img": "image 43.png", "text": "Oil, Ghee & \nSpices"},
     {"img": "image 44 (1).png", "text": "Dairy, Bread & \nMilk"},
     {"img": "image 45 (1).png", "text": "Biscuits & \nBakery"}
   ];
@@ -45,7 +45,7 @@ class CategoryScreen extends StatelessWidget {
               Container(
                 height: 190,
                 width: double.infinity,
-                color: Color(0XFFF7CB45),
+                color: Color(0XFF96D4DB),
                 child: Column(
                   children: [
                     SizedBox(
@@ -57,10 +57,10 @@ class CategoryScreen extends StatelessWidget {
                           width: 20,
                         ),
                         UiHelper.CustomText(
-                            text: "Blinkit in",
+                            text: "SwiftMart",
                             color: Color(0XFF000000),
                             fontweight: FontWeight.bold,
-                            fontsize: 15,
+                            fontsize: 12,
                             fontfamily: "bold"),
                       ],
                     ),
@@ -70,7 +70,7 @@ class CategoryScreen extends StatelessWidget {
                           width: 20,
                         ),
                         UiHelper.CustomText(
-                            text: "16 minutes",
+                            text: "25 minutes",
                             color: Color(0XFF000000),
                             fontweight: FontWeight.bold,
                             fontsize: 20,
@@ -88,9 +88,9 @@ class CategoryScreen extends StatelessWidget {
                             fontweight: FontWeight.bold,
                             fontsize: 14),
                         UiHelper.CustomText(
-                            text: "- Sujal Dave, Ratanada, Jodhpur (Raj)",
+                            text: "- Sylhet",
                             color: Color(0XFF000000),
-                            fontweight: FontWeight.bold,
+                            fontweight: FontWeight.normal,
                             fontsize: 14)
                       ],
                     ),

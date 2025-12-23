@@ -15,7 +15,7 @@ class CartScreen extends StatelessWidget {
                 Container(
                   height: 190,
                   width: double.infinity,
-                  color: Color(0XFFF7CB45),
+                  color: Color(0XFF96D4DB),
                   child: Column(
                     children: [
                       SizedBox(
@@ -58,7 +58,7 @@ class CartScreen extends StatelessWidget {
                               fontweight: FontWeight.bold,
                               fontsize: 12),
                           UiHelper.CustomText(
-                              text: " - Sylhet",
+                              text: "- Sylhet",
                               color: Color(0XFF000000),
                               fontweight: FontWeight.normal,
                               fontsize: 14)
