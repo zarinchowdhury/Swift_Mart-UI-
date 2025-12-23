@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:swiftmart_app/respository/widgets/uihelper.dart';
+import '../cart/cartscreen.dart';
+import '../category/categoryscreen.dart';
+import '../home/homescreen.dart';
+import '../print/printscreen.dart';
 
 class BottomNavScreen extends StatefulWidget {
   @override
@@ -24,7 +28,7 @@ class _BottomNavScreenState extends State<BottomNavScreen> {
       bottomNavigationBar: BottomNavigationBar(
         items: [
           BottomNavigationBarItem(
-              icon: Image.asset("assets/images/home .png"), label: "Home"),
+              icon: Image.asset("assets/images/home.png"), label: "Home"),
           BottomNavigationBarItem(
               icon: UiHelper.CustomImage(img: "shopping-bag 1.png"),
               label: "Cart"),
