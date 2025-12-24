@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         title: 'SwiftMart',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
-          colorScheme: ColorScheme.fromSeed(seedColor: Color(0xFFA4DFCE)),
+          colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
           useMaterial3: false,
         ),
         home: SplashScreen());
